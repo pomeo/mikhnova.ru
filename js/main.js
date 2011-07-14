@@ -336,7 +336,7 @@ function onMenuClear()
 
 	saveToLocalStorage();
 
-	brush.destroy();
+	//brush.destroy();
 	// brush = eval("new " + BRUSHES[menu.selector.selectedIndex] + "(context)");
 }
 

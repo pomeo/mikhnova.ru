@@ -4,31 +4,18 @@
 }
 
 html,body {
-    background-color:#eee;
-    color:#444;
+    background-color:#000;
+    color:#fff;
     font-family:Monospace;
 	font-size:12px;
 	overflow:hidden;
 }
 
-body {
+#main {
     min-width:1000px;
-    min-height:600px;
-    max-width:1280px;
-    max-height:1024px;
-}
-
-select {
-	text-transform: uppercase;
-	font-size: 11px;
-	text-align: center;
-}
-
-hr {
-	border: 0;
-	height: 1px;
-	background-color: #ccc;
-	margin: 20px 0px;
+    /* min-height:600px;
+     * max-width:1280px;
+     * max-height:1024px; */
 }
 
 #board {
@@ -99,7 +86,7 @@ hr {
     z-index:100;
 }
 
-#phone {
+#phone a{
     display:block;
     width:244px;
     height:24px;
@@ -108,7 +95,7 @@ hr {
     text-indent:-10000px;
 }
 
-#email {
+#email a{
     display:block;
     width:332px;
     height:30px;

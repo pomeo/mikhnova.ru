@@ -334,9 +334,9 @@ function onMenuClear()
 		
 	context.clearRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
 
-	// saveToLocalStorage();
+	saveToLocalStorage();
 
-	// brush.destroy();
+	brush.destroy();
 	// brush = eval("new " + BRUSHES[menu.selector.selectedIndex] + "(context)");
 }
 

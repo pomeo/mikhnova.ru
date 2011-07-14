@@ -1,0 +1,171 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+html,body {
+    background-color:#eee;
+    color:#444;
+    font-family:Monospace;
+	font-size:12px;
+	overflow:hidden;
+}
+
+body {
+    min-width:1000px;
+    min-height:600px;
+    max-width:1280px;
+    max-height:1024px;
+}
+
+select {
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #ccc;
+	margin: 20px 0px;
+}
+
+#board {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+
+#elena {
+    width:417px;
+    height:51px;
+    background:url(../img/elena.png) no-repeat;
+    text-indent:-2000px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    z-index:100;
+}
+
+#chalk {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:50;
+}
+
+#clear {
+    display:block;
+    width:123px;
+    height:14px;
+    background:url(../img/clear.png) no-repeat;
+    text-indent:-10000px;
+    position:absolute;
+    bottom:6px;
+    right:5px;
+}
+
+#save {
+    display:block;
+    width:146px;
+    height:20px;
+    background:url(../img/save.png) no-repeat;
+    text-indent:-10000px;
+    position:absolute;
+    bottom:0px;
+    right:149px;
+}
+
+#colorway {
+    width:212px;
+    height:28px;
+    background:url(../img/color.png) no-repeat;
+    text-indent:-10000px;
+    position:absolute;
+    bottom:4px;
+    right:379px;
+    z-index:30;
+}
+
+#contacts {
+    list-style:none;
+    position:absolute;
+    top:15px;
+    right:15px;
+    z-index:100;
+}
+
+#phone {
+    display:block;
+    width:244px;
+    height:24px;
+    background:url(../img/phone.png) no-repeat right top;
+    padding:0px 0px 10px 88px;
+    text-indent:-10000px;
+}
+
+#email {
+    display:block;
+    width:332px;
+    height:30px;
+    background:url(../img/email.png) no-repeat;
+    text-indent:-10000px;
+}
+
+#list {
+    width:343px;
+    height:344px;
+    background:url(../img/riba.png) no-repeat;
+    position:absolute;
+    top:250px;
+    left:250px;
+    z-index:30;
+}
+
+#girl {
+    width:343px;
+    height:378px;
+    background:url(../img/girl.png) no-repeat;
+    position:absolute;
+    top:230px;
+    left:650px;
+    z-index:30;
+}
+
+#pallete {
+    z-index:500;
+}
+
+#ya-share {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    z-index:500;
+}
+
+.gui {
+	color: #ccc;
+	width:670px;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 18px;
+	cursor:default;
+    right:0px;
+    z-index:500;
+}
+
+.button {
+	padding: 2px;
+	cursor: pointer;
+}
+
+.key {
+	padding: 0px 8px;
+	margin-left: 1px;
+	background-color: #eee;
+}
